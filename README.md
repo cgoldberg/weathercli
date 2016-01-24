@@ -1,0 +1,2 @@
+# weathercli
+today's weather
