@@ -54,7 +54,7 @@ def convert_to_fahrenheit(kelvin_temp):
 
     returns a float (degrees fahrenheit)
     """
-    return 1.8 * (273.15 - kelvin_temp) + 32
+    return 1.8 * (kelvin_temp - 273.15) + 32
 
 
 if __name__ == '__main__':
